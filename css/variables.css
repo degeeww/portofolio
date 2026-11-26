@@ -1,0 +1,5 @@
+/* variables.css — color tokens (neon blue gradient on soft monochrome) */
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+:root{--bg:#e9eef3;--fg:#0f1620;--mut:#5f6c7b;--ac:#0a9bff;--ac2:#5b4dff;--card:#dde5ec;--ln:#0f162026;--gl:#0a9bff55}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0d1118;--fg:#e8eef5;--mut:#8996a6;--ac:#29d9ff;--ac2:#5a7bff;--card:#161c26;--ln:#e8eef522;--gl:#29d9ff66}}
+:root[data-theme="dark"]{--bg:#0d1118;--fg:#e8eef5;--mut:#8996a6;--ac:#29d9ff;--ac2:#5a7bff;--card:#161c26;--ln:#e8eef522;--gl:#29d9ff66}

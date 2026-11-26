@@ -1,0 +1,16 @@
+/* theme.css — final look: gradient background patches, neon blue gradient accents, 3D colors */
+body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:1;background:radial-gradient(60vw 55vh at 6% 4%,color-mix(in srgb,var(--ac) 30%,transparent),transparent 70%),radial-gradient(55vw 60vh at 98% 42%,color-mix(in srgb,var(--ac2) 28%,transparent),transparent 70%),radial-gradient(55vw 50vh at 18% 102%,color-mix(in srgb,var(--ac) 22%,transparent),transparent 70%);animation:dr 22s ease-in-out infinite alternate}
+@keyframes dr{to{transform:scale(1.15) translate(2%,-2%)}}
+#loader{background:#070b14;color:#29d9ff}
+h1 em{background:linear-gradient(90deg,var(--ac),var(--ac2));-webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:none}
+.cta,.bar button.on,.bar button:hover,.fbar button.on,.fbar button:hover,.photo .tagline,#toast,.ap:hover b,.chips span:hover{background:linear-gradient(135deg,var(--ac),var(--ac2));color:#04101c;border-color:transparent}
+.cta.o{background:none;color:var(--fg);border:1.5px solid var(--ln)}.cta.o:hover{border-color:var(--ac);background:none}
+.sph{background:radial-gradient(circle at 30% 28%,#fff 0,var(--ac) 38%,#0a1f6e 100%);box-shadow:0 0 50px var(--gl)}
+#g2 stop:last-child{stop-color:var(--ac)}
+.par svg path:first-child{fill:var(--ac)}.par svg path:last-child{fill:var(--ac2)}
+.cube div:nth-child(1){background:linear-gradient(135deg,#29d9ffcc,#0a8cffcc);color:#04101c}
+.cube div:nth-child(2){background:linear-gradient(135deg,#4d7cffcc,#7a3dffcc)}
+.cube div:nth-child(3){background:linear-gradient(135deg,#3a4250cc,#1b2028cc)}
+.cube div:nth-child(4){background:linear-gradient(135deg,#00e5ffcc,#00a2ffcc);color:#04101c}
+.cube div:nth-child(5){background:linear-gradient(135deg,#e6eef5cc,#aab8c5cc);color:#111}
+.cube div:nth-child(6){background:linear-gradient(135deg,#6a5bffcc,#2d2dd8cc)}
